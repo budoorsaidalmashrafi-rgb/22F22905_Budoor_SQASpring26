@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class AgriculturalProduction {
+public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+System.out.println("Enter crop type:");
+int crop = input.nextInt();
+switch (crop) {
+case 1:
+System.out.println("Rice Crop Selected");
+break;
+case 2:
+System.out.println("Wheat Crop Selected");
+break;
+default:
+System.out.println("Invalid Crop");
+}
+System.out.println("Enter productivity value:");
+int productivity = input.nextInt();
+if (productivity >= 80) {
+System.out.println("High Productivity");
+}
+else {
+System.out.println("Low Productivity");
+}
+}
+}
