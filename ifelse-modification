@@ -16,7 +16,7 @@ System.out.println("Invalid Crop");
 }
 System.out.println("Enter productivity value:");
 int productivity = input.nextInt();
-if (productivity >= 80) {
+if (productivity >= 70) {
 System.out.println("High Productivity");
 }
 else {
