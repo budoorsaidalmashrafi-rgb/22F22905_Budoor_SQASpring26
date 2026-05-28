@@ -6,7 +6,7 @@ System.out.println("Enter crop type:");
 int crop = input.nextInt();
 switch (crop) {
 case 1:
-System.out.println("Rice Crop Selected");
+System.out.println("Rice Crop Selected for Analysis");
 break;
 case 2:
 System.out.println("Wheat Crop Selected");
